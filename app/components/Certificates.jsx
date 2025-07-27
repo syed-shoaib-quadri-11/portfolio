@@ -47,12 +47,21 @@ const Certificates = () => {
                 {CertificationImages.map((certificates, index) => (
                     <motion.div
                         key={index}
-                        className={`w-full aspect-[2/3] sm:aspect-square bg-cover bg-center rounded-xl relative  ${index === 2 ? 'bg-right rounded-xl' : 'bg-center'}`}
+                        className='w-full aspect-[2/3] sm:aspect-square bg-white rounded-xl relative overflow-hidden'
                         whileHover={{ scale: 1.05 }}
                         transition={{ duration: 0.3 }}
 
 
-                        style={{ backgroundImage: `url(${certificates.bgImage})` }}>
+
+                    // style={{ backgroundImage: `url(${certificates.bgImage})` }}
+                    >
+                        <img
+                            src={certificates.bgImage}
+                            alt={`Certificate ${index + 1}`}
+                            className='w-full h-full object-contain'
+                        />
+
+
                         {/* <div>
                             <div>
                                 <h2>{certificates.title}</h2>

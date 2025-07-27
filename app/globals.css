@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+
+
+
+* {
+  font-family: Outfit;
+}
+
+
+nav ul li a[href="#top"],
+nav ul li a[href="#About"],
+nav ul li a[href="#Project"],
+nav ul li a[href="#Certification"],
+nav ul li a[href="#Contact"],
+nav div a[href="#Contact"] {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+

@@ -28,12 +28,12 @@ const header = () => {
                 initial={{ y: -30, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.8, delay: 0.5 }}
-                className='text-3xl sm:text-6xl lg:text[-66px] font-mono '>AI/ML Enthusiast | DevOps | Full Stack Developer  </motion.h1>
+                className='text-3xl sm:text-6xl lg:text[-66px] font-mono '> DevOps Enthusiast | AI/ML | Full Stack Developer </motion.h1>
             <motion.p
                 initial={{  opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.6, delay: 0.7 }}
-                className='max-w-2xl mx-auto font-mono'> AI/ML enthusiast and full stack developer with a strong foundation in cloud computing (DevOps). Experienced in developing, deploying, and maintaining web applications using modern tools and technologies. Certified by IBM, AWS, and SAP.</motion.p>
+                className='max-w-2xl mx-auto font-mono'>DevOps enthusiast with a strong foundation in AI/ML and full stack development. Experienced in building, deploying, and managing scalable web applications using modern DevOps practices and cloud technologies. Certified by IBM, AWS, and SAP, with hands-on expertise in intelligent systems and full stack solutions.</motion.p>
 
             <div className='flex flex-col sm:flex-row items-center gap-4 mt-4'>
                 <motion.a 
@@ -45,7 +45,7 @@ const header = () => {
                 initial={{ y: 30, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.6, delay: 1 }}
-                href="/sample-resume.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2'>my Resume  <Image src={assets.download_icon} alt="" className=' w-4' /></motion.a>
+                href="/sample-resume.pdf" download className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2'>My Resume  <Image src={assets.download_icon} alt="" className=' w-4' /></motion.a>
             </div>
 
         </div>

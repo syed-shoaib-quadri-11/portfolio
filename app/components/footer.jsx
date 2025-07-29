@@ -18,11 +18,11 @@ const footer = () => {
                 <p>© 2025 Syed Shoaib. All rights reserved</p>
                 <ul className=' flex items-center gap-10 justify-center mt-4 sm:mt-0'>
                     <li>
-                        <a target='_blank' href="www.linkedin.com/in/syed-shoaib-quadri11">LinkedIn</a>
+                        <a target='_blank' href="https://www.linkedin.com/in/syed-shoaib-quadri11/">LinkedIn</a>
                     </li>
                     
                     <li>
-                        <a target='_blank' href="">Github</a>
+                        <a target='_blank' href="https://github.com/syed-shoaib-quadri-11">Github</a>
                     </li>
                     
                 </ul>

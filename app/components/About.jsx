@@ -29,7 +29,7 @@ const About = () => {
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.8 }}
 
-                className='flex w-full flex-col lg:flex-row items-center gap-20 my-20'>
+                className='flex w-full flex-col lg:flex-row items-center gap-20 mt-10 mb-20'>
 
                 <motion.div
 
@@ -45,7 +45,10 @@ const About = () => {
                     transition={{ duration: 0.6, delay: 0.8 }}
 
                     className='flex-1'>
-                    <p className='mb-10 max-w-2xl '> I am Syed Shoaib, a dedicated Bachelor of Computer Applications (BCA) student with a strong focus on Artificial Intelligence and Machine Learning, Cloud Computing with DevOps practices, and Full Stack Web Development. I am committed to building intelligent, scalable, and efficient technology solutions that address real-world challenges.</p>
+                    <p className='mb-10 max-w-2xl text-sm'> I’m Syed Shoaib, a Bachelor of Computer Applications student with a strong passion for DevOps, cloud infrastructure, and intelligent systems. My journey in tech revolves around automating workflows, deploying scalable applications, and exploring AI/ML to solve real-world problems. <br /> 
+
+I’ve gained hands-on experience in using tools like Docker, Kubernetes, and Jenkins to build CI/CD pipelines, along with working on full stack web development using React, Node.js, and MongoDB. I am also certified by IBM, AWS, and SAP, which has strengthened my understanding of cloud platforms and enterprise technologies.
+<br /><br />I believe in continuous learning and love turning ideas into solutions through clean code, smart automation, and collaborative development.</p>
                     <motion.ul
                         initial={{ opacity: 0 }}
                         whileInView={{ opacity: 1 }}

@@ -38,10 +38,18 @@ import right_arrow_bold_dark from './right-arrow-bold-dark.png';
 import nf_icon from './nf-icon.png';
 import listen_icon from'./Listen-icon.ico';
 import Docker_icon from'./docker-icon.png';
+import Docker_logo from './Docker-logo.png';
+import jenkins from './Jenkins.png';
+import k8s from './k8s.jpg'
+import colab from './GoogleColab.png'
 
 
 
 export const assets = {
+    colab,
+    Docker_logo,
+    jenkins,
+    k8s,
     user_image,
     code_icon,
     code_icon_dark,
@@ -120,18 +128,18 @@ export const CertificationImages= [
 
 export const projectData = [
     // { icon: assets.nf_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.Docker_icon, title: 'Dockerized App Deployment', description: 'MA full-stack Node.js application packaged using Docker to ensure consistent and portable deployment.This project demonstrates the use of Dockerfile and Docker Compose to containerize both the backend and frontend services, allowing easy local development and production deployment', link: '', bgImage: '/docker-bg.webp' },
-    { icon: assets.listen_icon, title: 'ListenME – Music Web Application', description: 'A browser-based music application built using HTML, CSS, and JavaScript.This project demonstrates your ability to work with DOM manipulation, event handling, and UI responsiveness, while delivering a smooth user experience in a custom audio player interface.', link: '', bgImage: '/listenMe.jpg' },
-    { icon: assets.nf_icon, title: 'Netflix Clone', description: 'A fully responsive frontend project built using HTML and CSS, inspired by the original Netflix layout. This clone replicates key UI components such as the hero banner, movie rows, and footer, while showcasing proficiency in layout structuring, responsive design, and visual alignment. Ideal for demonstrating frontend fundamentals with a real-world design.', link: '', bgImage: '/netflix-bg.webp' },
+    { icon: assets.Docker_icon, title: 'Dockerized App Deployment', description: 'My full-stack Node.js application packaged using Docker to ensure consistent and portable deployment.This project demonstrates the use of Dockerfile and Docker Compose to containerize both the backend and frontend services, allowing easy local development and production deployment', link: '', bgImage: '/docker-bg.webp' },
+    { icon: assets.listen_icon, title: 'ListenME – Music Web Application', description: 'A browser-based music application built using HTML, CSS, and JavaScript.This project demonstrates your ability to work with DOM manipulation, event handling, and UI responsiveness, while delivering a smooth user experience in a custom audio player interface.', link: 'https://syeds-listenme.netlify.app/', bgImage: '/listenMe.jpg' },
+    { icon: assets.nf_icon, title: 'Netflix Clone', description: 'A fully responsive frontend project built using HTML and CSS, inspired by the original Netflix layout. This clone replicates key UI components such as the hero banner, movie rows, and footer, while showcasing proficiency in layout structuring, responsive design, and visual alignment. Ideal for demonstrating frontend fundamentals with a real-world design.', link: 'https://streamflix-syed.netlify.app/', bgImage: '/netflix-bg.webp' },
 
 ]
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'Python, Java, SQL, C/C++, React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'BCA in Computer Science' },
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'Bachelor of Computer Applications' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];
 
 export const toolsData = [
-    assets.vscode, assets.firebase, assets.mongodb, assets.figma, assets.git
+    assets.vscode, assets.Docker_logo, assets.mongodb, assets.jenkins, assets.git,assets.k8s, assets.colab
 ];

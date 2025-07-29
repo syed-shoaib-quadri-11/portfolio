@@ -42,7 +42,7 @@ const Projects = () => {
       
       
       className='grid gap-4 grid-cols-[repeat(auto-fit,_minmax(200px,_1fr))]'>
-        {projectData.map(({ icon, title, bgImage, description, link }, index) => (
+        {projectData.map(({ icon, title, bgImage, description,link}, index) => (
           <motion.div 
           whileHover={{scale:1.05}}
           
@@ -56,7 +56,7 @@ const Projects = () => {
               {description}
             </p>
 
-            <a href="{link}" className='flex items-center gap-2  text-white  text-sm mt-5'>
+            <a href={link} className='flex items-center gap-2  text-white  text-sm mt-5'>
               Read mode <Image src={assets.right_arrow} alt='' className='w-4 ' />
             </a>
           </motion.div>

@@ -29,14 +29,14 @@ const About = () => {
                 whileInView={{ opacity: 1 }}
                 transition={{ duration: 0.8 }}
 
-                className='flex w-full flex-col lg:flex-row items-center gap-20 mt-10 mb-20'>
+                className='flex flex-col lg:flex-row items-center lg:items-start gap-10 px-4 sm:px-10 lg:pl-[-12%] py-10 scroll-mt-10'>
 
                 <motion.div
 
                     initial={{ opacity: 0, scale: 0.9 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5, delay: 0.3 }}
-                    className='w-64 sm:w-80 rounded-3xl max-w-none'>
+                    className="w-full max-w-[280px] sm:max-w-[320px] lg:max-w-[400px] rounded-3xl flex-shrink-0">
                     < Image src={assets.user_image} alt='user' className='w-full rounded-3xl' /></ motion.div>
 
                 <motion.div
@@ -44,7 +44,8 @@ const About = () => {
                     whileInView={{ opacity: 1, }}
                     transition={{ duration: 0.6, delay: 0.8 }}
 
-                    className='flex-1'>
+                      className="w-full"
+>
                     <p className='mb-10 max-w-2xl text-sm'> I’m Syed Shoaib, a Bachelor of Computer Applications student with a strong passion for DevOps, cloud infrastructure, and intelligent systems. My journey in tech revolves around automating workflows, deploying scalable applications, and exploring AI/ML to solve real-world problems. <br /> 
 
 I’ve gained hands-on experience in using tools like Docker, Kubernetes, and Jenkins to build CI/CD pipelines, along with working on full stack web development using React, Node.js, and MongoDB. I am also certified by IBM, AWS, and SAP, which has strengthened my understanding of cloud platforms and enterprise technologies.

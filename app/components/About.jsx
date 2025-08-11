@@ -46,7 +46,7 @@ const About = () => {
 
                       className="w-full"
 >
-                    <p className='mb-10 max-w-2xl text-sm'> I’m Syed Shoaib, a Bachelor of Computer Applications student with a strong passion for DevOps, cloud infrastructure, and intelligent systems. My journey in tech revolves around automating workflows, deploying scalable applications, and exploring AI/ML to solve real-world problems. <br /> 
+                    <p className='mb-10 max-w-2xl text-sm text-center '> I’m Syed Shoaib, a Bachelor of Computer Applications student with a strong passion for DevOps, cloud infrastructure, and intelligent systems. My journey in tech revolves around automating workflows, deploying scalable applications, and exploring AI/ML to solve real-world problems. <br /> 
 
 I’ve gained hands-on experience in using tools like Docker, Kubernetes, and Jenkins to build CI/CD pipelines, along with working on full stack web development using React, Node.js, and MongoDB. I am also certified by IBM, AWS, and SAP, which has strengthened my understanding of cloud platforms and enterprise technologies.
 <br /><br />I believe in continuous learning and love turning ideas into solutions through clean code, smart automation, and collaborative development.</p>
